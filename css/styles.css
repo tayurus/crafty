@@ -4,4 +4,123 @@
 
 body{
   margin:0;
+  background-color: #f5f5f5;
+  transition-duration: 1s;
+}
+
+header{
+    background: url("../img/header.png") no-repeat center;
+    background-size: cover;
+    padding-top: 61px;
+}
+
+.header-wrapper{
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 186px;
+}
+
+.header-menu{
+    background-color: #ffdc34;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.header-menu div{
+    height: 4px;
+    width: 23px;
+    background-color: #3f3f3f;
+    margin-bottom: 3px;
+}
+
+
+
+.header-carousel-item h2{
+    max-width: 756px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.header-carousel-item h3{
+    max-width: 800px;
+    color: #bababa;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.header-carousel-item button{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 15px 42px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.owl-dot{
+    width: 40px;
+    height: 9px;
+    border: 1px solid #a7a7a7;
+    background: transparent;
+    margin: 0px 10px;
+}
+
+.owl-dot.active{
+    background: #ffdc34;
+}
+
+.owl-dot span{
+    display: none !important;
+}
+
+.displayFromAsshole-wrapper{
+    max-width: 1029px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.displayFromAsshole-wrapper img{
+    width: 83%;
+    display: block;
+    margin: auto;
+}
+
+.displayFromAsshole-wrapper h2{
+    color: #646464;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.displayFromAsshole-wrapper h3{
+    color: #767676;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
 }

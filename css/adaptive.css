@@ -1,0 +1,13 @@
+@media (max-width:1210px) {
+    .header-top {
+        padding: 0px 20px;
+        margin-bottom: 30px;
+    }
+
+    .header-carousel-item{
+        font-size: 25px;
+        padding: 0px 20px;
+    }
+
+
+}

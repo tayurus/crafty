@@ -1,3 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-  //do work
+  $(".owl-carousel").owlCarousel({
+      items:1,
+      dots:true
+  })
 });
