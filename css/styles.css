@@ -1,49 +1,47 @@
-*{
-   box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-  margin:0;
-  background-color: #f5f5f5;
-  transition-duration: 1s;
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    transition-duration: 1s;
 }
 
-header{
+header {
     background: url("../img/header.png") no-repeat center;
     background-size: cover;
     padding-top: 61px;
 }
 
-.header-wrapper{
+.header-wrapper {
     max-width: 1170px;
     margin: auto;
     overflow: hidden;
     padding-bottom: 50px;
 }
 
-.header-top{
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 186px;
 }
 
-.header-menu{
+.header-menu {
     background-color: #ffdc34;
     padding: 15px;
     cursor: pointer;
 }
 
-.header-menu div{
+.header-menu div {
     height: 4px;
     width: 23px;
     background-color: #3f3f3f;
     margin-bottom: 3px;
 }
 
-
-
-.header-carousel-item h2{
+.header-carousel-item h2 {
     max-width: 756px;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -55,7 +53,7 @@ header{
     margin-bottom: 25px;
 }
 
-.header-carousel-item h3{
+.header-carousel-item h3 {
     max-width: 800px;
     color: #bababa;
     font-family: "Open Sans";
@@ -64,7 +62,7 @@ header{
     line-height: 26px;
 }
 
-.header-carousel-item button{
+.header-carousel-item button {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -77,7 +75,7 @@ header{
     cursor: pointer;
 }
 
-.owl-dot{
+.owl-dot {
     width: 40px;
     height: 9px;
     border: 1px solid #a7a7a7;
@@ -85,27 +83,27 @@ header{
     margin: 0px 10px;
 }
 
-.owl-dot.active{
+.owl-dot.active {
     background: #ffdc34;
 }
 
-.owl-dot span{
+.owl-dot span {
     display: none !important;
 }
 
-.displayFromAsshole-wrapper{
+.displayFromAsshole-wrapper {
     max-width: 1029px;
     margin: auto;
     padding-top: 60px;
 }
 
-.displayFromAsshole-wrapper img{
+.displayFromAsshole-wrapper img {
     width: 83%;
     display: block;
     margin: auto;
 }
 
-.displayFromAsshole-wrapper h2{
+.displayFromAsshole-wrapper h2 {
     color: #646464;
     font-family: "Open Sans";
     font-size: 26px;
@@ -116,7 +114,7 @@ header{
     margin-top: 100px;
 }
 
-.displayFromAsshole-wrapper h3{
+.displayFromAsshole-wrapper h3 {
     color: #767676;
     font-family: "Open Sans";
     font-size: 17px;
@@ -125,44 +123,44 @@ header{
     text-align: center;
 }
 
-.about{
+.about {
     background: #f5f5f5;
     padding: 65px 0px;
 }
 
-.about-wrapper{
+.about-wrapper {
     max-width: 1030px;
     margin: auto;
     margin-bottom: 30px;
 }
 
-.about-row{
+.about-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
-.about-item{
+.about-item {
     max-width: 416px;
     margin-right: 20px;
     display: flex;
     align-items: center;
 }
 
-.about-item img{
+.about-item img {
     margin-right: 23px;
 }
 
-.about-item-text{
+.about-item-text {
     height: 102px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.about-item-text h4{
+.about-item-text h4 {
     color: #343434;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -172,7 +170,7 @@ header{
     margin: 0px;
 }
 
-.about-item-text span{
+.about-item-text span {
     color: #686868;
     font-family: "Open Sans";
     font-size: 14px;
@@ -181,23 +179,24 @@ header{
 }
 
 /* weCreative */
-.weCreative{
+
+.weCreative {
     padding: 50px 0px 100px 0px;
     background: url("../img/weCreative.png") no-repeat center;
     background-size: cover;
 }
 
-.weCreative-wrapper{
+.weCreative-wrapper {
     max-width: 968px;
     margin: auto;
 }
 
-.weCreative-wrapper img{
+.weCreative-wrapper img {
     display: block;
     margin: auto;
 }
 
-.weCreative-wrapper h2{
+.weCreative-wrapper h2 {
     color: #909090;
     font-family: "Open Sans";
     font-size: 26px;
@@ -206,7 +205,43 @@ header{
     text-align: center;
 }
 
-.weCreative-wrapper h3{
+.weCreative-wrapper h3 {
+    color: #767676;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* getInTouch */
+
+.getInTouch {
+    padding: 100px 0px;
+    background: url("../img/getInTouch.png") no-repeat center;
+    background-size: cover;
+}
+
+.getInTouch-wrapper {
+    max-width: 968px;
+    margin: auto;
+}
+
+.getInTouch-wrapper img{
+    display: block;
+    margin: auto;
+}
+
+.getInTouch-wrapper h2 {
+    color: #909090;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.getInTouch-wrapper h3 {
     color: #767676;
     font-family: "Open Sans";
     font-size: 17px;

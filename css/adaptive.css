@@ -23,6 +23,7 @@
 @media (max-width:850px), (max-device-width:850px) {
     .about{
         padding: 0px;
+        margin-bottom: 75px;
     }
 
     .about-item{
