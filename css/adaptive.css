@@ -31,3 +31,27 @@
         padding: 10px;
     }
 }
+
+/* INPUTS */
+@media (max-width:1230px), (max-device-width:1230px) {
+    .inputs-row{
+        justify-content: space-around;
+    }
+
+    .inputs-row input{
+        margin: 10px 0px;
+    }
+
+    .inputs-wrapper textarea{
+        display: block;
+        width: 90%;
+        margin: 0px auto 30px auto;
+    }
+}
+
+@media (max-width:430px), (max-device-width:430px) {
+    .inputs-row input{
+        width: 90%;
+        margin: 10px auto 0px auto;
+    }
+}

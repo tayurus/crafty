@@ -249,3 +249,66 @@ header {
     line-height: 26px;
     text-align: center;
 }
+
+/* inputs */
+.inputs{
+    padding: 100px 0px;
+}
+
+.inputs-wrapper{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.inputs-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.inputs-row input{
+    display: block;
+    width: 373px;
+    /* min-width: 300px; */
+    padding: 30px 15px;
+    background-color: transparent;
+    color: #535353;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: 1px solid #a6a6a6;
+}
+
+.inputs-wrapper textarea{
+    width: 100%;
+    height: 205px;
+    padding: 30px 15px;
+    background-color: transparent;
+    color: #535353;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    border: 1px solid #a6a6a6;
+    resize: none;
+}
+
+.inputs-sendBtn{
+    display: block;
+    margin: auto;
+    max-width: 370px;
+    min-width: 300px;
+    height: 72px;
+    background-color: #ffde00;
+    color: #535353;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
